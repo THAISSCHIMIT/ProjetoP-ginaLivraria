@@ -2,3 +2,12 @@ h1{
     color:rgb(110, 50, 167);
     text-align:center;
 }
+
+h2{
+    color:skyblue;
+    font-style: italic;
+}
+
+p{
+    color:rgb(161, 102, 216);
+}
