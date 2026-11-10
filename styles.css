@@ -41,5 +41,7 @@ p{
 body{
     background-color: rgb(114, 131, 190);
     color: rgb(138, 128, 128);
+    max-width: 60rem;
+    margin: 0 auto;
     
 }
