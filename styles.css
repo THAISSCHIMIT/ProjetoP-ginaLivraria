@@ -1,6 +1,7 @@
 h1{
     color:rgb(110, 50, 167);
     text-align:center;
+    
 }
 
 h2{
@@ -30,4 +31,10 @@ p{
 
 .destaque{
     color:rgb(161, 54, 54)
+}
+
+body{
+    background-color: rgb(101, 199, 183);
+    color: rgb(138, 128, 128);
+    
 }
