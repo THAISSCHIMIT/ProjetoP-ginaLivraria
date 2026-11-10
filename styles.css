@@ -15,13 +15,14 @@ p{
 
 .card{
     color: rgb(23, 173, 153);
+    padding: 1rem 3rem;
 }
 
 .btn{
     color:rgb(196, 231, 196);
     background-color: black;
     border-radius: 8px;
-    padding: 5px;
+    padding: 0.5rem 1rem;
 }
 
 .btn:hover{
