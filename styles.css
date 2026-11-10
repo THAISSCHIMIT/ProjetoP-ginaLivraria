@@ -4,10 +4,30 @@ h1{
 }
 
 h2{
-    color:skyblue;
+    color:rgb(6, 85, 116);
     font-style: italic;
 }
 
 p{
-    color:rgb(161, 102, 216);
+    color:rgb(80, 14, 141);
+}
+
+.card{
+    color: rgb(23, 173, 153);
+}
+
+.btn{
+    color:rgb(196, 231, 196);
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(110, 50, 167);
+    color: white;
+}
+
+.destaque{
+    color:rgb(161, 54, 54)
 }
