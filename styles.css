@@ -1,5 +1,5 @@
 h1{
-    color:rgb(110, 50, 167);
+    color:rgb(56, 17, 94);
     text-align:center;
     
 }
@@ -14,14 +14,17 @@ p{
 }
 
 .card{
-    color: rgb(23, 173, 153);
+    color: rgb(27, 9, 92);
     padding: 1rem 3rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
 }
 
 .btn{
     color:rgb(196, 231, 196);
     background-color: black;
-    border-radius: 8px;
+    border-radius: 999px;
+    border: none;
     padding: 0.5rem 1rem;
 }
 
@@ -35,7 +38,7 @@ p{
 }
 
 body{
-    background-color: rgb(101, 199, 183);
+    background-color: rgb(114, 131, 190);
     color: rgb(138, 128, 128);
     
 }
