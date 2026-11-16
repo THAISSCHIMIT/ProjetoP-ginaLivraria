@@ -9,6 +9,7 @@ h1{
     color:rgb(56, 17, 94);
     text-align:center;
     font-size: 2.5rem;
+    font-family: "Iowan Old Style", Georgia, Cambria, serif;
     
 }
 
@@ -16,6 +17,7 @@ h2{
     color:rgb(6, 85, 116);
     font-style: italic;
     font-size: 1.25rem;
+    font-family: "Iowan Old Style", Georgia, Cambria, sans;
 }
 
 p{
@@ -57,5 +59,6 @@ body{
     color: rgb(138, 128, 128);
     max-width: 60rem;
     margin: 0 auto;
+    font-family: "Iowan Old Style", Georgia, Cambria, serif;
     
 }
