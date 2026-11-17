@@ -1,3 +1,33 @@
+:root {
+  --color-bg:       hsl(220 20% 96%);   /* fundo da página    */
+  --color-surface:  hsl(0 0% 100%);     /* fundo dos cards    */
+  --color-ink:      hsl(220 15% 20%);   /* texto corrido      */
+  --color-heading:  hsl(220 18% 14%);   /* títulos            */
+  --color-muted:    hsl(220 10% 40%);   /* sinopse            */
+  --color-line:     hsl(220 15% 60%);   /* borda do card      */
+  --color-brand:    hsl(120 100% 23%);  /* ação               */
+  --color-on-brand: hsl(0 0% 100%);     /* tinta sobre a ação */
+  --color-accent:   hsl(35 90% 32%);    /* o destaque do Step 17 */
+  --color-ring:     hsl(210 90% 45%);   /* anel de foco       */
+
+  
+  /*Tema Escuro*/
+  --color-bg-dark:       hsl(220 20% 10%);
+  --color-surface-dark:  hsl(220 20% 15%);
+  --color-ink-dark:      hsl(220 15% 80%);
+  --color-heading-dark:  hsl(220 18% 90%);
+  --color-muted-dark:    hsl(220 10% 60%);
+  --color-line-dark:     hsl(220 15% 40%);
+  --color-brand-dark:    hsl(120 100% 50%);
+  --color-on-brand-dark: hsl(0 0% 100%);
+  --color-accent-dark:   hsl(35 90% 50%);
+  --color-ring-dark:     hsl(210 90% 60%);
+}
+
+
+
+
+
 *,
 *::before,
 *::after {
@@ -6,7 +36,7 @@
 
 
 h1{
-    color:rgb(56, 17, 94);
+    color: var(--color-heading);
     text-align:center;
     font-size: 2.5rem;
     font-family: "Iowan Old Style", Georgia, Cambria, serif;
@@ -29,7 +59,8 @@ p{
 }
 
 .card{
-    color: rgb(27, 9, 92);
+    color: var(--color-ink);
+    background-color: var(--color-surface);
     padding: 1rem 3rem;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 8px;
