@@ -63,7 +63,7 @@ p{
     text-transform: uppercase;
     letter-spacing: 0.12em;
     cursor : pointer;
-    
+    transition: transform 180ms ease-out, background-color 180ms ease-out;
 }
 
 
@@ -72,6 +72,7 @@ p{
 .btn:hover{
     background-color: rgb(110, 50, 167);
     color: white;
+    transform: translateY(-2px);
 }
 
 .btn:active{
