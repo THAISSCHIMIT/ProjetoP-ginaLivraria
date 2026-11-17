@@ -45,6 +45,13 @@ p{
     
 }
 
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
 .btn {
     color:rgb(196, 231, 196);
     background-color: black;
