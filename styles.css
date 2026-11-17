@@ -67,6 +67,12 @@ p{
     color: white;
 }
 
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
 .destaque{
     color:rgb(161, 54, 54)
 }
