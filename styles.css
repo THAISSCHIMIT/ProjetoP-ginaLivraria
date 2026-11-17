@@ -44,8 +44,7 @@ p{
     font-size: 1.0rem;
 }
 
-
-.btn{
+.btn {
     color:rgb(196, 231, 196);
     background-color: black;
     border-radius: 999px;
@@ -55,7 +54,11 @@ p{
     font-weight: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
+
 }
+
+
+
 
 .btn:hover{
     background-color: rgb(110, 50, 167);
@@ -80,3 +83,7 @@ body{
 .btn-primary{
     background-color: rgb(6, 32, 116);
 }
+
+
+
+
