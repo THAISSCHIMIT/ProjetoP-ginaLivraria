@@ -88,9 +88,17 @@ p{
 
 }
 
+
+.btn:focus-visible{
+    outline: 3px solid rgb(252, 253, 255);
+    outline-offset: 3px;
+}
+
+
 .destaque{
     color:rgb(161, 54, 54)
 }
+
 
 body{
 
