@@ -7,21 +7,9 @@
   --color-line:     hsl(220 15% 60%);   /* borda do card      */
   --color-brand:    hsl(120 100% 23%);  /* ação               */
   --color-on-brand: hsl(0 0% 100%);     /* tinta sobre a ação */
-  --color-accent:   hsl(35 90% 32%);    /* o destaque do Step 17 */
+  --color-accent:   hsl(271, 84%, 25%);    /* o destaque do Step 17 */
   --color-ring:     hsl(210 90% 45%);   /* anel de foco       */
 
-  
-  /*Tema Escuro*/
-  --color-bg-dark:       hsl(220 20% 10%);
-  --color-surface-dark:  hsl(220 20% 15%);
-  --color-ink-dark:      hsl(220 15% 80%);
-  --color-heading-dark:  hsl(220 18% 90%);
-  --color-muted-dark:    hsl(220 10% 60%);
-  --color-line-dark:     hsl(220 15% 40%);
-  --color-brand-dark:    hsl(120 100% 50%);
-  --color-on-brand-dark: hsl(0 0% 100%);
-  --color-accent-dark:   hsl(35 90% 50%);
-  --color-ring-dark:     hsl(210 90% 60%);
 }
 
 
@@ -145,6 +133,28 @@ body{
 
 .btn-primary{
     background-color: rgb(6, 32, 116);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg:       var(--color-bg-dark);
+    --color-surface:  var(--color-surface-dark);
+    --color-ink:      var(--color-ink-dark);
+    --color-heading:  var(--color-heading-dark);
+    --color-muted:    var(--color-muted-dark);
+    --color-line:     var(--color-line-dark);
+    --color-brand:    var(--color-brand-dark);
+    --color-on-brand: var(--color-on-brand-dark);
+    --color-accent:   var(--color-accent-dark);
+    --color-ring:     var(--color-ring-dark);
+  }
+
+  .btn:hover {
+    background-color: var(--color-brand);
+    background-color: var(--color-surface);
+    background-color: var(--color-line);
+  }
 }
 
 
